@@ -21,7 +21,7 @@ const levels = [
       {
         id: "tea_coffee",
         componentType: "radio",
-        variables: [{ yes: "Yes" }, { no: "No" }],
+        variables: ['yes', 'no'],
         horizontal: true,
       },
     ],
@@ -56,7 +56,7 @@ const levels = [
       {
         id: "juice_soda",
         componentType: "radio",
-        variables: [{ yes: "Yes" }, { no: "No" }],
+        variables: ['yes', 'no'],
         horizontal: true,
       },
     ],
@@ -96,7 +96,7 @@ const levels = [
       {
         id: "soaking_nuts_grains",
         componentType: "radio",
-        variables: [{ yes: "Yes" }, { no: "No" }],
+        variables: ['yes', 'no'],
       },
     ],
     [{ id: "sprouting_grains", componentType: "textarea" }],
@@ -111,7 +111,7 @@ const levels = [
       {
         id: "smoking",
         componentType: "radio",
-        variables: [{ yes: "Yes" }, { no: "No" }],
+        variables: ['yes', 'no'],
       },
     ],
   ],

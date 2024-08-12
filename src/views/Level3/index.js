@@ -38,7 +38,7 @@ const levels = [
       {
         id: "hair_dyeing",
         componentType: "radio",
-        variables: [{ yes: "Yes" }, { no: "No" }],
+        variables: ['yes', 'no'],
       },
     ],
   ],
@@ -73,7 +73,7 @@ const levels = [
       {
         id: "current_vitamins_supplements",
         componentType: "radio",
-        variables: [{ yes: "Yes" }, { no: "No" }],
+        variables: ['yes', 'no'],
       },
     ],
     [{ id: "oral_contraceptives", componentType: "textarea" }],

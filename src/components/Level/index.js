@@ -59,20 +59,30 @@ const Level = ({ levels }) => {
                 gridTemplateColumns: `repeat(${props.variables.length}, 1fr)`,
               }}
             >
-              {props.variables.map((val, index) => (
-                <RadioButton
-                  name={props.id}
-                  id={`${props.id}-${index}`}
-                  onChange={({ target: { value } }) =>
-                    changeData(props.id, value)
-                  }
-                  value={Object.keys(val).toString()}
-                  required={index === 0}
-                  checked={data[props.id] === Object.keys(val).toString()}
-                >
-                  {t(Object.values(val).toString())}
-                </RadioButton>
-              ))}
+              {props.variables.map((val, index) => {
+                let key = val;
+                let value = val;
+
+                if (typeof val === "object") {
+                  key = Object.keys(val).toString();
+                  value = Object.values(val).toString();
+                }
+
+                return (
+                  <RadioButton
+                    name={props.id}
+                    id={`${props.id}-${index}`}
+                    onChange={({ target: { value } }) =>
+                      changeData(props.id, value)
+                    }
+                    value={key}
+                    required={index === 0}
+                    checked={data[props.id] === key}
+                  >
+                    {t(value)}
+                  </RadioButton>
+                );
+              })}
             </div>
           </div>
         );

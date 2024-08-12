@@ -104,9 +104,7 @@ const levels = [
         componentType: "radio",
         variables: [
           { 0: "no" },
-          { 0: "rarely" },
           { 8: "often" },
-          { 8: "constantly" },
         ],
         horizontal: true,
       },
@@ -117,9 +115,7 @@ const levels = [
         componentType: "radio",
         variables: [
           { 0: "no" },
-          { 0: "rarely" },
           { 8: "often" },
-          { 8: "constantly" },
         ],
         horizontal: true,
       },
@@ -158,9 +154,7 @@ const levels = [
         componentType: "radio",
         variables: [
           { 0: "no" },
-          { 0: "rarely" },
           { 8: "often" },
-          { 8: "constantly" },
         ],
         horizontal: true,
       },

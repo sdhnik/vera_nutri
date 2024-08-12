@@ -50,7 +50,6 @@ export const DataProvider = ({ children }) => {
         method: "POST",
         headers: myHeaders,
         body: urlencoded,
-        mode: 'no-cors',
         redirect: "follow",
       };
   

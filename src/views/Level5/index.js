@@ -115,7 +115,7 @@ const levels = [
       {
         id: "digestive_problems_relief",
         componentType: "radio",
-        variables: [{ 0: "never_rarely" }, { 0: "sometimes" }, { 8: "often" }, { 8: "very_often" }],
+        variables: [{ 0: "never_rarely" }, { 8: "often" }],
         horizontal: true,
       },
     ],
@@ -290,7 +290,7 @@ const levels = [
       {
         id: "lack_desire_defecate",
         componentType: "radio",
-        variables: [{ 0: "never_rarely" }, { 0: "sometimes" }, { 8: "often" }, { 8: "very_often" }],
+        variables: [{ 0: "never_rarely" }, { 8: "often" }],
         horizontal: true,
       },
     ],
@@ -298,7 +298,7 @@ const levels = [
       {
         id: "constant_need_defecate",
         componentType: "radio",
-        variables: [{ 0: "never_rarely" }, { 0: "sometimes" }, { 8: "often" }, { 8: "very_often" }],
+        variables: [{ 0: "never_rarely" }, { 8: "often" }],
         horizontal: true,
       },
     ],
@@ -430,7 +430,7 @@ const levels = [
       {
         id: "bruises_easily",
         componentType: "radio",
-        variables: [{ 0: "never_rarely" }, { 0: "sometimes" }, { 8: "often" }, { 8: "very_often" }],
+        variables: [{ 0: "never_rarely" }, { 8: "often" }],
         horizontal: true,
       },
     ],
@@ -438,7 +438,7 @@ const levels = [
       {
         id: "yellowish_eyes",
         componentType: "radio",
-        variables: [{ 0: "never_rarely" }, { 0: "sometimes" }, { 8: "often" }, { 8: "very_often" }],
+        variables: [{ 0: "never_rarely" }, { 8: "often" }],
         horizontal: true,
       },
     ],

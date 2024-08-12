@@ -32,7 +32,7 @@ const Layout = () => {
 
   return (
     <div className="bg-[#e0dcdd] min-[1024px]:bg-[url('./assets/imgs/back.webp')] min-[1024px]:bg-cover min-[1024px]:bg-[60%_top] min-h-[100vh] flex flex-col justify-center items-center p-[16px] min-[1024px]:p-[2vw] text-center">
-      <a href="/">
+      <a href="/vera_nutri/">
         <img
           src={logo_with_text}
           className="hidden min-[1360px]:block absolute top-[3vh] left-[6vw] h-[197px]"

@@ -20,7 +20,7 @@ const levels = [
       {
         id: "love_job",
         componentType: "radio",
-        variables: [{ yes: "Yes" }, { no: "No" }],
+        variables: ['yes', 'no'],
       },
     ],
   ],
