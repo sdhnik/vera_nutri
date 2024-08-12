@@ -1,5 +1,16 @@
-import { render } from 'preact';
-import './index.css';
-import App from './App';
+import { h, render } from "preact";
+import { LanguageProvider } from "./hooks/LanguageContext";
+import { DataProvider } from "./hooks/DataContext";
 
-render(<App />, document.getElementById('app'));
+import Layout from "./Layout";
+
+import "./index.css";
+
+render(
+  <DataProvider>
+    <LanguageProvider>
+      <Layout />
+    </LanguageProvider>
+  </DataProvider>,
+  document.getElementById("app")
+);

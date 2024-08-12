@@ -22,9 +22,11 @@
   },
   "homepage": "https://github.com/SafdarJamal/preact-boilerplate#readme",
   "dependencies": {
-    "preact": "^10.11.2"
+    "preact": "^10.11.2",
+    "preact-compat": "^3.19.0"
   },
   "devDependencies": {
+    "classnames": "^2.5.1",
     "parcel": "^2.7.0",
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.4"
@@ -42,6 +44,9 @@
     ]
   },
   "alias": {
+    "react": "preact-compat",
+    "react-dom$": "preact-compat",
+    "react-dom/server": "preact-compat/server",
     "preact/jsx-dev-runtime": "preact/jsx-runtime"
   }
 }
